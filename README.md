@@ -11,6 +11,19 @@ npm run dev -- --port 3017
 
 Visit `http://127.0.0.1:3017` when running on port 3017.
 
+## Deploy to Cloudflare Workers
+
+The repository is configured for Cloudflare Workers through OpenNext.
+
+```powershell
+npm run cf:build
+npm run cf:deploy
+```
+
+For Cloudflare Git builds, use `npm run cf:build` as the build command and
+`npx wrangler deploy` as the deploy command. Store provider keys in encrypted
+Worker secrets, never in `NEXT_PUBLIC_*` variables.
+
 ## Current product surface
 
 - Upload, drag-and-drop, marketplace-specific prompt presets, simulated preview, comparison slider, and export.
