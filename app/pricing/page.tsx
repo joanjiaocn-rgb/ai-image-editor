@@ -2,7 +2,7 @@ import Link from "next/link";
 import { ArrowRight, Check, Sparkles } from "lucide-react";
 import { plans } from "@/lib/site";
 
-export const metadata = { title: "Pricing | Luma Edit", description: "Simple monthly product-image credits for Etsy, Shopify, and Amazon sellers." };
+export const metadata = { title: "Pricing | Luma Edit", description: "Simple monthly product-image credits for Etsy, Shopify, and Amazon sellers.", alternates: { canonical: "/pricing" } };
 
 export default function PricingPage() {
   return (

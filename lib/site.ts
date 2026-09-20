@@ -1,7 +1,7 @@
 export const site = {
   name: "Luma Edit",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://lumaedit.app",
-  supportEmail: "support@lumaedit.app",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://imageeditor.website",
+  supportEmail: "support@imageeditor.website",
 };
 
 export const plans = [
